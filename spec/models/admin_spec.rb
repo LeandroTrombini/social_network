@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe Admin, type: :model do
   it 'admin is valid' do
     # Arrange
-    admin = Admin.new(email:'admin@email.com', password: '123456')
+    admin = Admin.new(name: "Leandro", email:'admin@email.com', password: '123456')
     # Act
 
     # Assert
