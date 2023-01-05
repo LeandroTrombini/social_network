@@ -10,10 +10,9 @@ Rails.application.routes.draw do
   end
 
   root to: "user/timeline#index"
-
+  
   namespace :user do
-    # root to: "home#index"
-    # resources :users
+ 
   end
 end
 
