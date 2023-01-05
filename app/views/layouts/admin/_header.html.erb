@@ -6,9 +6,9 @@
       </li>
       <li class="nav-item <%= current_page?(admin_admins_path) ? "active" : ""%>">
         <%= link_to("Administradores", admin_admins_path, class: "nav-link")%>
-      </li>   
-      <li class="nav-item">
-        <a class="nav-link" href="#">Usuários</a>
+      </li>
+      <li class="nav-item <%= current_page?(admin_users_path) ? "active" : ""%>">
+        <%= link_to("Usuários", admin_users_path, class: "nav-link")%>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Posts</a>
